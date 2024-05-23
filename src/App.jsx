@@ -15,7 +15,7 @@ function App() {
     { id: 8, name: "Kyrie Irving", picture: "/player-pictures/kyrie.png" },
     { id: 9, name: "Luka Doncic", picture: "/player-pictures/doncic.png" },
     { id: 10, name: "Stephen Curry", picture: "/player-pictures/curry.png" },
-    { id: 11, name: "Jayson Tatum", picture: "src/player-pictures/tatum.png" },
+    { id: 11, name: "Jayson Tatum", picture: "/player-pictures/tatum.png" },
   ];
 
   const [players, setPlayers] = useState(initialPlayers);
